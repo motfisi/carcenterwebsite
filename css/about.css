@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+body {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+	
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	z-index: 1;
+  background-color: black;
+  }
+  
+  .button-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .center-buttons {
+	/* Отображение центральных кнопок в центре */
+	padding-left: 10%;
+	flex-grow: 1;
+	text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .button-container button,
+  .auth-buttons button {
+	padding: 10px 20px;
+	margin: 0 10px;
+	color: white;
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+  font-family: 'Nunito Sans', sans-serif;
+  }
+
+
+  .button-container button:hover,
+  .auth-buttons button:hover {
+	color: #2980b9;
+  font-family: 'Nunito Sans', sans-serif;
+
+  }
+  
+  .user-section {
+	/* Отображение информации о пользователе справа */
+	font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+	color: white;
+  }
+
+A {
+	color: #34A4C7;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+   } 
+A:hover { 
+    color: #34A4C7;
+   }
+
+.text1{
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    top: 6vw;
+    left: 40%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text2{
+    position: absolute;
+    width: 20%;
+    font-size: 1.5vw;
+    text-align: justify;
+    color: white;
+    top: 13vw;
+    left: 40%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.map {
+    z-index: 999;
+    width: 34%;
+    height: 30vw;
+    margin-left: 3%;
+    margin-top: 7vw;
+    border-radius: 3vw;
+}
+
+.img_about {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.rights {
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 11%;
+}
+
+.hrefs {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    top: 85%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding-top: 2vh;
+    padding-left: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    padding: 0;
+    width: 40%;
+    height: 95vh;
+    overflow-y: auto;
+    text-align: center;
+    position: relative;
+    border-radius: 1vw;
+    border: 0.3vw solid #000000;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+  	font-style: normal;
+ 	font-weight: 400;
+  	font-size: 1.3vw;
+}
+
+h2 {
+    font-size: 2vw;
+    margin-bottom: 0vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+    margin-bottom: 0vw;
+}
+
+p {
+    margin-bottom: 1vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5vw;
+}
+
+input[name="name"],
+input[name="email"],
+input[name="phone"],
+textarea {
+    color: white;
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    border-radius: 0.5vw;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[name="modal"] {
+    padding: 10px 20px;
+    background-color: #518aca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[name="modal"]:hover {
+    background-color: #2e5a9c;
+}
+
+.close {
+    padding: 10px 20px;
+    background-color: #518aca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.close:hover {
+    background-color: #2e5a9c;
+}
+

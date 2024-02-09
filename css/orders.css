@@ -1,0 +1,16 @@
+.reserved {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 2vw;
+}
+
+.noreserved {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 3vw;
+    margin-bottom: 13.85vw;
+}

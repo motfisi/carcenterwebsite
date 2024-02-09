@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+body {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 100vh;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	z-index: 1;
+  }
+  
+  .button-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .center-buttons {
+	/* Отображение центральных кнопок в центре */
+	padding-left: 10%;
+	flex-grow: 1;
+	text-align: center;
+  }
+  
+  .button-container button,
+  .auth-buttons button {
+	padding: 10px 20px;
+	margin: 0 10px;
+	color: white;
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: 'Nunito Sans', sans-serif;
+
+  }
+
+
+  .button-container button:hover,
+  .auth-buttons button:hover {
+	color: #2980b9;
+
+  }
+  
+  .user-section {
+	/* Отображение информации о пользователе справа */
+	font-size: 16px;
+	color: white;
+  }
+
+A {
+	color: #34A4C7;
+    text-decoration: none;
+   } 
+A:hover { 
+    color: #34A4C7;
+   }
+
+.audi_logo {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	left: 61%;
+	top: 10%;
+}
+
+.audi_text {
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left: 50%;
+	top: 20%;
+	font-size: 50px;
+}
+
+.audi1 {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	left: 7%;
+	top: 20%;
+	/* Горизонтальное смещение | Вертикальное смещение | Размытие | Расстояние распространения тени | Цвет */
+	box-shadow: 4px 4px 10px 4px rgb(255, 255, 255);
+	border-radius: 1vw;
+}
+
+.audi2 {
+	top: 55%;
+}
+
+.order_button_main {
+	position: absolute;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 0.5%;
+	top: 22%;
+	left: 5%;
+	width: 15%;
+	height: 10vh;
+	background-color: #9A0000;
+
+	border-radius: 3vw;
+}
+
+.cost {
+	position: absolute;
+	font-size: 36px;
+	top: 13%;
+	left: 7%;
+}

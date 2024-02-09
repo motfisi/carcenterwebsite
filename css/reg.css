@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+A {
+    color: white;
+}
+
+.text {
+    color: white;
+    font-size: 4vw;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+    top: 6vw;
+    position: absolute;
+
+}
+
+.back {
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 1%;
+}
+
+.form_text {
+    color: white;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 15vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: row; /* Поля ввода и метки идут в одном ряду */
+    flex-wrap: wrap; /* Перенос на новую строку, если не помещаются в одной строке */
+    justify-content: space-between; /* Распределение элементов по краям контейнера */
+    max-width: 100%; /* Максимальная ширина формы */
+    margin: 0 auto; /* Центрирование формы по горизонтали */
+    gap: 10px; /* Промежуток между элементами */
+  }
+  
+  label {
+    color: white; /* Цвет текста меток */
+    text-align: right; /* Выравнивание текста меток по правому краю */
+    flex-basis: 30%; /* Ширина для меток */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    flex-basis: 60%; /* Ширина для полей ввода */
+    height: 3vw;
+    background-color: #333; /* Цвет поля ввода */
+    color: white; /* Цвет текста в полях ввода */
+    border: none; /* Убираем границы */
+    border-radius: 1vw; /* Закругление углов */
+    padding: 8px; /* Поля внутри поля ввода */
+    box-sizing: border-box; /* Учитываем padding в общей ширине */
+  }
+  
+  input[type="submit"] {
+    flex-basis: 50%; /* Ширина кнопки */
+    background-color: #333; /* Цвет кнопки отправки */
+    color: white; /* Цвет текста на кнопке */
+    border: none;
+    border-radius: 2vw;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 2vw;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555; /* Изменение цвета кнопки при наведении */
+  }
+
+  label[for="login"] {
+    color: white; /* Цвет текста меток */
+    text-align: center; /* Выравнивание текста меток по правому краю */
+    flex-basis: 100%;
+    margin-top: 1vw;
+    margin-left: 40%;
+  }
+  
+  
+
